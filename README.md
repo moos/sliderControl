@@ -21,10 +21,10 @@ Although the demo uses [jQTouch](http://www.jqtouch.com/) & [jQuery](http://jque
 ## Releases
 
 v0.1a - March 11, 2010 (latest)
-* updated slideToAction look and feel
+ * updated slideToAction look and feel
 
 v0.1 - January 20, 2010
-* initial release
+ * initial release
 
 ## Usage:
 
