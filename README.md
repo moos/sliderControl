@@ -1,6 +1,6 @@
 # sliderControl
 
-I needed a touch-enabled slider input control for a project I was working on.  Unfortunately there was no good existing solution, so I rolled my own.
+sliderControl is a stand-alone slider control optimized for touch-enabnled Webkit-based browsers, such as on the iPad, iPhone, and iPod touch.
 
 [Demo](http://42at.com/lab/sliderControl) (best viewed on desktop Safari/Chrome or iPhone/iPod Touch).
 
@@ -8,25 +8,23 @@ Although the demo uses [jQTouch](http://www.jqtouch.com/) & [jQuery](http://jque
 
 ## Features
 
-    * kinetic snap to value
-    * optimized CSS animation
-    * full range of slider values supported
-    * customizable with extensive options
-    * fully programmable
-    * event callbacks
-    * adjusts on orientation change
-    * works on desktop webkit browser (for testing)
-    * theme to taste!
+* kinetic snap to value
+* optimized CSS animation
+* full range of slider values supported
+* customizable with extensive options
+* fully programmable
+* event callbacks
+* adjusts on orientation change
+* works on desktop webkit browser (for testing)
+* theme to taste!
 
 ## Releases
 
-Latest (v0.1a) – March 11, 2010
+v0.1a - March 11, 2010 (latest)
+* updated slideToAction look and feel
 
-    * updated slideToAction look and feel
-
-V0.1 – January 20, 2010
-
-    * initial release
+v0.1 - January 20, 2010
+* initial release
 
 ## Usage:
 
@@ -36,7 +34,7 @@ V0.1 – January 20, 2010
 
 	new sliderControl('#sliderDiv', min, max, step);
 
-		* Slider control with values ‘min' to ‘max' in increments 'step'.
+		* Slider control with values 'min' to 'max' in increments 'step'.
 
 	new sliderControl('#sliderDiv',['yes','no','maybe']);
 
