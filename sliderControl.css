@@ -1,16 +1,16 @@
 /**
 * sliderControl.css
 *
-* Copyright (c) 2010 
+* Copyright (c) 2011 
 * http://42at.com/lab/sliderControl
 * Released under MIT license
 * 
-* Version 0.1a - Last updated: 2010.03.11
+* Version 0.2 - Last updated: 2011.03.11
 */
 .sliderAction,
 .slider {
 	height:40px;
-	border:0px inset rgba(256,256,256,.2);
+	border:0px inset rgba(255,255,255,.2);
 	margin:0 10%;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4e4e6e), to(#222));
     -webkit-border-radius: 12px;
@@ -24,10 +24,7 @@
 	z-index:5;
 	border:2px inset rgba(255,255,255,0);	
 	opacity:.3;
-	font-size:24px;
-	text-shadow: rgba(128,128,128,1) 2px 2px 4px;
-	text-align:center;
-	color: black;	
+	font-size:0px;
 	-webkit-appearance: button;
     -webkit-border-radius: 12px;
 }

@@ -4,11 +4,11 @@
 *     touch slider input control for mobile WebKit
 *     (also works on desktop webkit browsers for testing/dev purposes) 
 * 
-* Copyright (c) 2010 
+* Copyright (c) 2011 
 * http://42at.com/lab/sliderControl
 * Released under MIT license
 * 
-* Version 0.1a - Last updated: 2010.03.11
+* Version 0.2 - Last updated: 2011.03.11
 */
 
 /** 
@@ -47,6 +47,8 @@
 * Version 0.1a - 2010.03.11
 * 	- updated slideToAction look & feel
 * 
+* Version 0.2 - 2011.03.11
+* 	- fixed thumb width/styling for iOS > 4.0
 */
 
 (function(){
@@ -634,7 +636,7 @@ function makeLabels(self){
 		n = self.values.length > 1 ? self.values.length : labels.length,
 		w = Math.floor(self.wrapper.clientWidth / self.values.length)
 				- /* label border with */ self.options.labelWidthAdjust;
-		
+
 	// adjust width of thumb to fit labels
 	if (self.values.length > 1) self.thumb.style.width = w+'px';
 	self.refresh();

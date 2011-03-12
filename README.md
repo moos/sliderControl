@@ -20,7 +20,11 @@ Although the demo uses [jQTouch](http://www.jqtouch.com/) & [jQuery](http://jque
 
 ## Releases
 
-v0.1a - March 11, 2010 (latest)
+v0.2 - March 11, 2011 (latest)
+ * fix thumb size problem with iOS 4.x
+ * added minified css
+
+v0.1a - March 11, 2010 
  * updated slideToAction look and feel
 
 v0.1 - January 20, 2010
@@ -153,7 +157,8 @@ Usage:
 
 Sliding to the end fires the onchange() event.  So it's important to set it to do the proper action.
 
-The spotlight animation works on Safari 4.x & Chrome 4.x which support animation of the -webkit-mask-position property.  It isn't supported on iPhone OS 3.1.2 browser.
+The spotlight animation works on Safari 4.x & Chrome 4.x which support animation of the -webkit-mask-position property.
+It isn't supported on iPhone OS 3.1.2 browser.  Works fine  on iOS 4.x!
 
 ## License
 
