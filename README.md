@@ -20,7 +20,7 @@ Although the demo uses [jQTouch](http://www.jqtouch.com/) & [jQuery](http://jque
 
 ## Releases
 
-v0.3 - 2013.08.01
+v0.3 -  August 1, 2013
  * handle both touch and mouse events
 
 v0.2 - March 11, 2011

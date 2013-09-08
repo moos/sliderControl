@@ -490,10 +490,10 @@ sliderControl.prototype = {
   },
 
   onTouchStart: function(e) {
-    moveEventName = disableMouse ? 'touchmove' : 'mousemove',
+    moveEventName = disableMouse ? 'touchmove' : 'mousemove';
     endEventName = disableMouse ? 'touchend' : 'mouseup';
 
-    if (e.targetTouches && e.targetTouches.length != this.numberOfTouches )
+    if (e.targetTouches && e.targetTouches.length != this.numberOfTouches)
       return;
 
     //e.preventDefault(); // no preventDefault to allow clicks on thumb
@@ -509,7 +509,7 @@ sliderControl.prototype = {
   },
 
   onTouchMove: function(e) {
-    if (e.targetTouches && e.targetTouches.length != this.numberOfTouches )
+    if (e.targetTouches && e.targetTouches.length != this.numberOfTouches)
       return;
     e.preventDefault();
     var x =  e.targetTouches ? e.targetTouches[0].clientX : e.clientX;
